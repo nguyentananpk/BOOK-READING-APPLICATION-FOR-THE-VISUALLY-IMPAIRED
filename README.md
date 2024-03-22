@@ -100,7 +100,8 @@ train = image_ids[:106155]
 test = image_ids[106155:]
 ```
 Ở mô hình này, chia bộ dữ liệu thành 2 phần gồm phần huấn luyện (train) và kiểm tra (test) để đánh giá chất lượng của mô hình.
-Dùng sentence_bleu trong thư viện nltk để tính điểm BLEU. Thực hiện so sánh các mô tả được tạo ra bởi mô hình với các mô tả thực tế để đánh giá mức độ trùng lặp
+Dùng sentence_bleu trong thư viện nltk để tính điểm BLEU. Thực hiện so sánh các mô tả được tạo ra bởi mô hình với các mô tả thực tế để đánh giá mức độ trùng lặp 
+
 ![alt text](BLEU.png)
 
 Kết quả: 0.647 nằm trong khoảng từ 0.5 đến 0.75: cho thấy hệ thống mô hình sinh mô tả được huấn luyện hoạt động tốt.
