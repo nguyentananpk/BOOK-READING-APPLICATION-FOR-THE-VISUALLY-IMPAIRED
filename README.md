@@ -131,6 +131,7 @@ def register_API():
 
 
 # 6. Xây dựng ứng dụng trên Android Studio
+
 ![alt text](APP.png)
 
 Xây dựng ứng dụng đảm bảo các luồng dữ liệu giữa người dùng, ứng dụng và API tương tác theo các bước sau:
@@ -151,6 +152,7 @@ Gồm có các khối chính:
 -	Button khởi động camera và thực hiện chụp ảnh.
 -	ImageView: hiển thị ảnh được chụp.
 -	TextView: hiển thị văn bản được xử lý được trả về từ API.
+   
 ![alt text](khoigiaodien.png)
 
 ## 6.2. Các quyền truy cập vào phần cứng thiết bị
@@ -174,27 +176,34 @@ Các quyền sử dụng này cần được khai báo trong tệp AndroidManife
 Trích xuất kết quả từ phản hồi JSON (`result`) và hiển thị nó trong `TextView` (`textView_response`)
 
 ## 6.3. Mô hình kết nối mạng
+
 ![alt text](Client_Server.png)
 
 Trong đề tài này, xây dựng server API có IP được cấp là:
+
 ![alt text](Client_Server1.png)
 
 Thiết kế cho ứng dụng kết nối được với API bằng các gửi các yêu cầu đến URL:
+
 ![alt text](Client_Server2.png)
 
 # 7. Demo
 ## 7.1. Giao diện app
 Khi nhấp vào icon ứng dụng thì sẽ có một màn hình bắt đầu sau đó chuyển đến màn hình chính. Giao diện màn hình chính có nút “Chụp ảnh” và phần hiển thị hình ảnh chụp được, nội dung văn bản trả về.
+
 ![alt text](demoapp.png)
 ![alt text](demoapp1.png)
 
 Cần phải khởi chạy API trước khi sử dụng ứng dụng. Ứng dụng này hoạt động tốt với trang sách chỉ có văn bản, vừa văn bản vừa hình ảnh hoặc chỉ có ảnh.
+
 ![alt text](demoapp2.png)
 
 **Hình ảnh thử nghiệm 1 với trang sách chỉ có một ảnh mô tả và vật gây nhiễu:**
+
 ![alt text](demopage.png) 
 
 Người dùng sẽ chụp ảnh từ điện thoại, ảnh sẽ được gửi đến API, ảnh và kết quả trả về điều được hiện lên trên màn hình. Kết quả trả về nếu quá dài thì có thể trượt để xem được toàn bộ nội dung.
+
 ![alt text](demopage1.png) 
 ![alt text](demopage2.png) 
 
@@ -202,6 +211,7 @@ Thể hiện rõ quá trình xử lý ở API, từ các bước xử lý ảnh 
 
   **Hình ảnh thử nghiệm 2:**
   Cấu trúc sách cho nhiều dạng khác nhau, không chỉ 1 ảnh mà có thể nhiều hơn. Ở đây, thử nghiệm với trang sách có hai trang sách sinh mô tả. Quá trình xử lý tương tự như ở demo 1:
+  
 ![alt text](demopage3.png)
 ![alt text](demopage4.png)
 ![alt text](demopage5.png) 
