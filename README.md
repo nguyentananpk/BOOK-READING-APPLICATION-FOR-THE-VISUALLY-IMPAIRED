@@ -54,6 +54,7 @@ Dùng mô hình sinh mô tả ảnh đã huấn luyện để sinh mô tả lầ
 # 3. Cấu trúc hệ thống
 ![alt text](cautruchethong.png)
 ![alt text](sodokhoiphancung.png)
+
 Kiến trúc tổng quan của hệ thống đọc sách cho người khiếm thị, người mù và chỉ phát âm thanh tập trung vào cung cấp trải nghiệm đọc sách toàn diện bằng âm thanh. Hệ thống này bao gồm hai thành phần chính:
 ## 3.1. Phần cứng:
 - Bộ điều khiển: Bao gồm một bộ điều khiển hoạt động bằng cảm ứng hoặc các nút điều khiển vật lý để người dùng có thể tương tác với hệ thống.
