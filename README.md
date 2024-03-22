@@ -66,6 +66,7 @@ Kiến trúc tổng quan của hệ thống đọc sách cho người khiếm th
 # 4. Huấn luyện mô hình Image Caption
 
 ![alt text](sodohuanluyenmohinhIC.png)
+
 Việc phát triển mô hình có các khối sau:
 -	Xử lý ảnh, trích xuất đặc trưng của ảnh.
 -	Bộ tiền xử lý văn bản.
@@ -81,6 +82,7 @@ model.optimizer.learning_rate.assign(0.0001)
 	model.save('output_glove/model_' + str(i) + '.h5')
 ```
 ![alt text](quatrinhuanluyenIC.png)
+
 Một số hình ảnh được mô tả qua mô hình được huấn luyện:
 
 |  STT | Ảnh  |
@@ -98,6 +100,7 @@ test = image_ids[106155:]
 Ở mô hình này, chia bộ dữ liệu thành 2 phần gồm phần huấn luyện (train) và kiểm tra (test) để đánh giá chất lượng của mô hình.
 Dùng sentence_bleu trong thư viện nltk để tính điểm BLEU. Thực hiện so sánh các mô tả được tạo ra bởi mô hình với các mô tả thực tế để đánh giá mức độ trùng lặp
 ![alt text](BLEU.png)
+
 Kết quả: 0.647 nằm trong khoảng từ 0.5 đến 0.75: cho thấy hệ thống mô hình sinh mô tả được huấn luyện hoạt động tốt.
 
 # 5. Triển khai máy chủ API
@@ -127,6 +130,7 @@ def register_API():
 
 # 6. Xây dựng ứng dụng trên Android Studio
 ![alt text](APP.png)
+
 Xây dựng ứng dụng đảm bảo các luồng dữ liệu giữa người dùng, ứng dụng và API tương tác theo các bước sau:
 1.	Người dùng khởi động ứng dụng.
 2.	Người dùng nhấn nút "Chụp ảnh" trong ứng dụng.
@@ -169,8 +173,10 @@ Trích xuất kết quả từ phản hồi JSON (`result`) và hiển thị nó
 
 ## 6.3. Mô hình kết nối mạng
 ![alt text](Client_Server.png)
+
 Trong đề tài này, xây dựng server API có IP được cấp là:
 ![alt text](Client_Server1.png)
+
 Thiết kế cho ứng dụng kết nối được với API bằng các gửi các yêu cầu đến URL:
 ![alt text](Client_Server2.png)
 
@@ -184,10 +190,12 @@ Cần phải khởi chạy API trước khi sử dụng ứng dụng. Ứng dụ
 ![alt text](demoapp2.png)
 
 **Hình ảnh thử nghiệm 1 với trang sách chỉ có một ảnh mô tả và vật gây nhiễu:**
-![alt text](demopage.png) Hình 3.30 Demo 1 quá trình hiển thị ảnh và văn bản trên app
+![alt text](demopage.png) 
+
 Người dùng sẽ chụp ảnh từ điện thoại, ảnh sẽ được gửi đến API, ảnh và kết quả trả về điều được hiện lên trên màn hình. Kết quả trả về nếu quá dài thì có thể trượt để xem được toàn bộ nội dung.
 ![alt text](demopage1.png) 
 ![alt text](demopage2.png) 
+
 Thể hiện rõ quá trình xử lý ở API, từ các bước xử lý ảnh đầu vào lọc nhiễu tìm trang sách và thực hiện sinh mô tả và hiệu chỉnh văn bản sau khi nhận diện trước khi gửi kết quả đến người dùng.
 
   **Hình ảnh thử nghiệm 2:**
