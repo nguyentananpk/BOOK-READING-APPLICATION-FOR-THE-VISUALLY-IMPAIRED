@@ -30,7 +30,9 @@ Phát triển ứng dụng hỗ trợ người khiếm thị đọc sách. Ứng
 
 # 2. Phương pháp thiết kế
 Thiết kế và triển khai hệ thống phát giọng nói được sử dụng để giúp đỡ người khiếm thị đọc sách. Hệ thống được đặc trưng bởi nhiều thuật toán, chia nhiều thành phần để có hiệu quả và dễ sử dụng. Hệ thống sử dụng một máy chủ làm API riêng và dùng thiết bị có thể chụp ảnh làm phía người dùng.
+
 ![alt text](sodoxuly.png)
+
 ## 2.1. Ở phía người dùng:
 -	Bước 1: Thực hiện chụp ảnh, dùng điện thoại thông minh có camera làm thiết bị đầu vào cho hệ thống, chụp ảnh trang sách bằng điện thoại. Hình ảnh phải có độ phân giải cao và chứa vùng nội dung trang sách muốn đọc.
 -	Bước 2: Ảnh sẽ được mã hoá thành chuỗi nhị phân và gửi đến máy chủ API.
