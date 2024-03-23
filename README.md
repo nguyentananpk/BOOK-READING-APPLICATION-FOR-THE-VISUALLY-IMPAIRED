@@ -222,8 +222,8 @@ Thể hiện rõ quá trình xử lý ở API, từ các bước xử lý ảnh 
 Demo cho thấy khả năng hiệu quả trong việc đọc sách cho người khiếm thị. Ứng dụng này hoạt động tốt với trang sách chỉ có văn bản, vừa văn bản vừa hình ảnh hoặc chỉ có ảnh. Khi có các yếu tố, vật dụng gây nhiễu thì hệ thống vẫn đảm bảo được chức năng của nó. Ứng dụng tỏ ra tiện lợi và hiệu hơn so với các công cụ hỗ trợ đã đề cập.
 ## 8.2. Đánh giá
 Tuy mô hình image caption đạt hiệu năng tốt, song hệ thống còn ảnh hưởng bởi nhiều yếu tố khác. Một số điểm hạn chế còn tồn tại:
-	- Tỉ lệ nhận dạng còn phụ thuộc nhiều vào điều kiện ánh sáng, phản chiếu hoặc che bóng.
-	- Với những trang sách có cấu trúc phức tạp thì mức độ nhận dạng không cao. 
+- Tỉ lệ nhận dạng còn phụ thuộc nhiều vào điều kiện ánh sáng, phản chiếu hoặc che bóng.
+- Với những trang sách có cấu trúc phức tạp thì mức độ nhận dạng không cao. 
 
 
 
