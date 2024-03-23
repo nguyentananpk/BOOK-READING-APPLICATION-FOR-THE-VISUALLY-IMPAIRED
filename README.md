@@ -23,6 +23,7 @@ Phát triển ứng dụng hỗ trợ người khiếm thị đọc sách. Ứng
   - [6.3. Mô hình kết nối mạng](#63-mô-hình-kết-nối-mạng)
 - [7. Demo](#7-demo)
   - [7.1. Giao diện app](#71-giao-diện-app)
+  - [7.2. Video demo](#72-video-demo)
 - [8. Kết quả, đánh giá](#8-kết-quả-đánh-giá)
   - [8.1. Kết quả](#81-kết-quả)
   - [8.2. Đánh giá](#82-đánh-giá)
