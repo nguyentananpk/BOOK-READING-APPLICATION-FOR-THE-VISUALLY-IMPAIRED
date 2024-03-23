@@ -217,6 +217,29 @@ Thể hiện rõ quá trình xử lý ở API, từ các bước xử lý ảnh 
 ![alt text](demopage4.png)
 ![alt text](demopage5.png) 
 
+## 7.2. Video demo
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/18a0e210-ab08-4696-97ab-9b0acb799f05
+
+
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/2e4a2c16-3287-4ac6-ab39-557ea793acea
+
+
+
+
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/c1915178-728f-4b12-8dc7-728ada7ab140
+
+
+
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/d78a3630-aa4a-4a8a-96d5-21d29ee88822
+
+
+
+
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/9dfacdb5-51a4-4b9f-837a-b82a387141fe
+
+
+
+
 # 8. Kết quả, đánh giá
 ## 8.1. Kết quả 
 Demo cho thấy khả năng hiệu quả trong việc đọc sách cho người khiếm thị. Ứng dụng này hoạt động tốt với trang sách chỉ có văn bản, vừa văn bản vừa hình ảnh hoặc chỉ có ảnh. Khi có các yếu tố, vật dụng gây nhiễu thì hệ thống vẫn đảm bảo được chức năng của nó. Ứng dụng tỏ ra tiện lợi và hiệu hơn so với các công cụ hỗ trợ đã đề cập.
