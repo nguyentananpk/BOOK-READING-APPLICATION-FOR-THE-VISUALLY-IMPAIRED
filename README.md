@@ -227,3 +227,9 @@ Tuy mô hình image caption đạt hiệu năng tốt, song hệ thống còn �
 
 
 
+
+https://github.com/nguyentananpk/Book-Reading/assets/84267495/18a0e210-ab08-4696-97ab-9b0acb799f05
+
+
+
+
